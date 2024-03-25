@@ -3,15 +3,7 @@ import dotenv from "dotenv";
 import bodyParser from "body-parser";
 import axios from "axios";
 dotenv.config();
-import cors from "cors";
 
-const corsOptions ={
-    origin:'https://mangafyy-33v8z3dtu-happys-projects-ac44d7f3.vercel.app/', 
-    credentials:true,
-    optionSuccessStatus:200
-}
-
-app.use(cors(corsOptions));
 const app=express();
 const port=process.env.port || 8000;
 
