@@ -6,7 +6,7 @@ dotenv.config();
 import cors from "cors";
 
 const corsOptions ={
-    origin:'https://mangafyy.vercel.app/', 
+    origin:'https://mangafyy-33v8z3dtu-happys-projects-ac44d7f3.vercel.app/', 
     credentials:true,
     optionSuccessStatus:200
 }
